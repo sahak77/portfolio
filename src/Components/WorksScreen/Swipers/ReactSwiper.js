@@ -18,7 +18,7 @@ const ReactSwiper = ({ gitClone, setGitClone, copyLink }) => {
             description: "portfolio project",
             used: "HTML, CSS, Javascript, react",
             github: "https://github.com/sahak77/social-app-web",
-            webPage: "https://alias-admin.vercel.app/useralias",
+            webPage: "https://portfolio-sahak77.vercel.app/",
             video: "",
             gitClone: "https://github.com/sahak77/social-app-web.git bbbb"
         },
