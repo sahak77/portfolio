@@ -51,10 +51,88 @@
     border: 1px solid #00fff5;
     border-radius: 15px;
 }
+.miniBoxTitle{
+    color: cadetblue;
+}
+.miniBoxCont{
+    height: 80%;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    font-family: sans-serif;
+}
+.miniBox:nth-child(2) .miniBoxCont{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;    
+    width: 200px;
+    margin: auto;
+}
+.miniBoxImg{
+    width: 70px;
+    height: 70px;
+}
+.miniBoxText{ 
+    font-family: monospace;
+    text-align: center
+}
 
 @media screen and (max-width: 1100px) {
     .aboutHeadImg {
         width: 150px;
         height: 150px;
     }
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutHeadImg{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .aboutHeadCont{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        max-height: 50%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .miniBoxTitle{
+        font-size: 15px;
+    }
+    .miniCont{
+        width: 90%;
+        font-size: 13px;
+    }
+    .aboutMe{
+        font-size: 13px;
+    }
+    .aboutMeText{
+        display: none;
+    }
+    .aboutMeCont{
+        width: 95%;
+        height: auto;
+        max-height: 60%;
+    }
+    .miniBoxImg{
+        width: 40px;
+        height: 40px;
+    }
+    .miniBoxCont{
+        padding: 0px 10px 0px 10px;
+        font-size: 15px;
+    }
+    .miniBox:nth-child(2) .miniBoxCont{
+        height: 60%;
+        width: 110px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .miniBox:nth-child(1) .miniBoxCont div{
+        display: none;
+    }
+}
