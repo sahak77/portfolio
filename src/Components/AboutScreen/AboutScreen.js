@@ -37,7 +37,7 @@ const AboutScreen = () => {
                         </div>
                     </div>
                     <div className="miniBox">
-                        <h2 align="center" className="miniBoxTitle">Contact</h2>
+                        <h2 style={{marginBottom: 10}} align="center" className="miniBoxTitle">Contact</h2>
                         <div className="miniBoxCont">
                            <a href="mailto:stepanyansahak@gmail.com" ><img alt="email" className="miniBoxImg" src={email} /></a>
                            <a href="https://www.linkedin.com/in/sahak-stepanyan-10788b185/" target="_blank" rel="noreferrer"><img alt="linkedin" className="miniBoxImg" src={linkedin} /></a>
