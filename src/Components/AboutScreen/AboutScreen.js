@@ -28,9 +28,8 @@ const AboutScreen = () => {
                     <div className="miniBox">
                         <h2 align="center" className="miniBoxTitle">Skills</h2>
                         <div className="miniBoxCont">
-                            <p className="miniBoxText" > HTML,  CSS,  bootstrap,  javascript,  react,  redux,  react-native,  node,  mongoDB,  firebase,  git </p>
-                            <div>
-                            <br />
+                            <p className="miniBoxText" >HTML, CSS, bootstrap, javascript, react, redux, react-native, expo, node.js, RESTful API, mongoDB, firebase, git</p>
+                            <div style={{marginTop: 25}}> 
                             <h2 align="center" className="miniBoxTitle">Education</h2>
                             <p className="miniBoxText" >*  Hovhannes Tumanyan Basic School No.32 </p>
                             <p className="miniBoxText" >* TUMO - CENTER FOR CREATIVE TECHNOLOGIES </p>
