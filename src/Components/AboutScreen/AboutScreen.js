@@ -18,7 +18,9 @@ const AboutScreen = () => {
                         <p className="aboutMe">
                             HI!. My name is Sahak. I am 18 years old. I am an creative,
                             self-motivated and hard working person who enjoys a challenge 
-                            and achieving personal goals.
+                            and achieving personal goals. My present career aim is to work within it because i enjoy working with computers,
+                            i enjoy the environment and i find the work interesting and satisfying.
+                            the opportunity to learn new skills and work with new technologies is particularly attractive to me.
                         </p>
                     </div>
                 </div>
