@@ -16,12 +16,9 @@ const AboutScreen = () => {
                     <div className="aboutMeCont">
                         <h2 className="aboutMeText">ABOUT ME</h2>
                         <p className="aboutMe">
-                            when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                            Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum.
+                            HI!. My name is Sahak. I am 18 years old. I am an creative,
+                            self-motivated and hard working person who enjoys a challenge 
+                            and achieving personal goals.
                         </p>
                     </div>
                 </div>
