@@ -36,13 +36,17 @@
 .aboutMe{
     color: white;
     font-family: sans-serif;
+    text-align: center;
 }
 .miniCont{
     display: flex;
     justify-content: space-between;
     width: 60%;
     height: 40%;
+
     flex-direction: row;
+    /* max-height: 40%; */
+    /* font-size: 13px; */
 }
 .miniBox{
     width: 48%;
@@ -104,6 +108,8 @@
     .miniCont{
         width: 90%;
         font-size: 13px;
+        max-height: 40%;
+        height: auto;
     }
     .aboutMe{
         font-size: 13px;
