@@ -9,7 +9,7 @@ const SwiperSlideItem = ({ data, gitClone, copyLink }) => {
             <div className="itemHeadCont">
                 <div style={{ display: "flex", flexDirection: "row", marginBottom: 10 }}>
                     <h1 className="title">{data.name}</h1>
-                    <button className="button" onClick={() => copyLink(data.gitClone)} >{gitClone}</button>
+                    {data.gitClone ? <button className="button" onClick={() => copyLink(data.gitClone)} >{gitClone}</button> : null}
                 </div>
                 <p className="text">({data.description})</p>
                 <p className="text">used: {data.used}</p>

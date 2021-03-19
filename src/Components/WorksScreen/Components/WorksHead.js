@@ -8,7 +8,7 @@ const WorksHead = ({ setPage, page }) => {
                 <p onClick={() => setPage("react")} className={`${page === "react" ? "worksHeadActiveItem" : "worksHeadItem"}`}>React</p>
                 <p onClick={() => setPage("reactNative")} className={`${page === "reactNative" ? "worksHeadActiveItem" : "worksHeadItem"}`}>React-Native</p>
                 <p onClick={() => setPage("jsFun")} className={`${page === "jsFun" ? "worksHeadActiveItem" : "worksHeadItem"}`}>JS Fun</p>
-                <p onClick={() => setPage("teamWork")} className={`${page === "teamWork" ? "worksHeadActiveItem" : "worksHeadItem"}`}>Team Work</p>
+                <p onClick={() => setPage("teamWork")} className={`${page === "teamWork" ? "worksHeadActiveItem" : "worksHeadItem"}`}>Team Works</p>
             </div>
         </>
     );
