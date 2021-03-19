@@ -13,6 +13,7 @@ import "./Works.css"
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
+import TeamWorkSwiper from './Swipers/TeamWorkSwiper';
 
 SwiperCore.use([Navigation, A11y, Pagination]);
 
@@ -35,9 +36,11 @@ const WorksScreen = () => {
             {
                 page === "react"
                     ? <ReactSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
-                    : page === "reactNative"
-                        ? <ReactNativeSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
-                        : <JsfunSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
+                : page === "reactNative" 
+                    ? <ReactNativeSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
+                : page === "jsFun" 
+                    ? <JsfunSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
+                : <TeamWorkSwiper gitClone={gitClone} setGitClone={setGitClone} copyLink={copyLink} />
             }
         </div>
     );
