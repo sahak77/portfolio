@@ -15,7 +15,7 @@ const JsfunSwiper = ({ gitClone, setGitClone, copyLink }) => {
         },
         {
             name: "Game of Life",
-            description: "there are 6 characters with different stats (movment, lifetime etc. ) and they wont to bettle",
+            description: "simple Game of Life",
             used: "HTML, Javascript, p5.js",
             github: "https://github.com/sahak77/JS_Fun/tree/master/Game_of_Life",
             webPage: "https://js-fun-ead8b.web.app/Game_of_Life/",
@@ -41,8 +41,8 @@ const JsfunSwiper = ({ gitClone, setGitClone, copyLink }) => {
             gitClone: "https://github.com/sahak77/JS_Fun.git"
         },
         {
-            name: "X_&_O game",
-            description: "simple X_&_O game",
+            name: "tic tac toe game",
+            description: "simple tic tac toe game",
             used: "HTML, Javascript",
             github: "https://github.com/sahak77/JS_Fun/tree/master/X_%26_O_game",
             webPage: "https://js-fun-ead8b.web.app/X_&_O_game/",
