@@ -5,11 +5,29 @@ const JsfunSwiper = ({ gitClone, setGitClone, copyLink }) => {
 
     const jsFunData = [
         {
+            name: "Minesweeper",
+            description: "Minesweeper game",
+            used: "HTML, CSS, Javascript",
+            github: "https://github.com/sahak77/JS_Fun/tree/master/minesweeper",
+            webPage: "https://js-fun-ead8b.web.app/minesweeper/",
+            video: "",
+            gitClone: "https://github.com/sahak77/JS_Fun.git"
+        },
+        {
             name: "Line sorting",
             description: "Line sorting animation using algorithms",
             used: "HTML, Javascript, p5.js",
             github: "https://github.com/sahak77/JS_Fun/tree/master/line_sort_animation",
             webPage: "https://js-fun-ead8b.web.app/line_sort_animation/",
+            video: "",
+            gitClone: "https://github.com/sahak77/JS_Fun.git"
+        },
+        {
+            name: "Hashing algorithm",
+            description: "Text hashing algorithm",
+            used: "Javascript",
+            github: "https://github.com/sahak77/JS_Fun/tree/master/hash",
+            webPage: "https://js-fun-ead8b.web.app/hash/",
             video: "",
             gitClone: "https://github.com/sahak77/JS_Fun.git"
         },

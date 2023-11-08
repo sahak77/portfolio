@@ -19,7 +19,6 @@ function App() {
 
 	setTimeout(() => {
 		setLoading(false)
-		console.log(process.env);
 	}, 1500);
 
 	if (loading) {

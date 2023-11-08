@@ -16,7 +16,7 @@ const AboutScreen = () => {
                     <div className="aboutMeCont">
                         <h2 className="aboutMeText">ABOUT ME</h2>
                         <p className="aboutMe">
-                            HI!. My name is Sahak. I am 18 years old. I am an creative,
+                            HI!. My name is Sahak. I am an creative,
                             self-motivated and hard working person who enjoys a challenge
                             and achieving personal goals. My present career aim is to work 
                             within it because i enjoy working with computers, i enjoy
@@ -30,11 +30,12 @@ const AboutScreen = () => {
                     <div className="miniBox">
                         <h2 align="center" className="miniBoxTitle">Skills</h2>
                         <div className="miniBoxCont">
-                            <p className="miniBoxText" >HTML, CSS, bootstrap, javascript, react, redux, react-native, expo, node.js, RESTful API, mongoDB, firebase, git</p>
+                            <p className="miniBoxText" >HTML, CSS, bootstrap, javascript, react, redux, react-native, expo, node.js, RESTful API, golang, ruby on rails, SQL, mongoDB, firebase, Docker, git</p>
                             <div style={{ marginTop: 25 }}>
                                 <h2 align="center" className="miniBoxTitle">Education</h2>
-                                <p className="miniBoxText" >*  Hovhannes Tumanyan Basic School No.32 </p>
+                                <p className="miniBoxText" >* Hovhannes Tumanyan Basic School No.32 </p>
                                 <p className="miniBoxText" >* TUMO - CENTER FOR CREATIVE TECHNOLOGIES </p>
+                                <p className="miniBoxText" >* YSU - Faculty of Mathematic and mechanic </p>
                             </div>
                         </div>
                     </div>
